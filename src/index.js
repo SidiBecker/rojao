@@ -16,12 +16,8 @@ const rojao = () => {
       darwin: `afplay ${soundPath}.mp3`,
     }
 
-    console.log(commandsForEachPlatform)
-
     const platform = process.platform
     const codeToExecute = commandsForEachPlatform[platform]
-
-  
 
     return execPromise(codeToExecute)
 }
