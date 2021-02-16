@@ -1,6 +1,6 @@
 {
   "name": "rojao",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Play the rojao sound.",
   "main": "src/index.js",
   "scripts": {
