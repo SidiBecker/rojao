@@ -1,0 +1,26 @@
+{
+  "name": "rojao",
+  "version": "1.0.0",
+  "description": "Play the rojao sound.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SidiBecker/rojao.git"
+  },
+  "author": "Sidi Becker <sidibecker@hotmail.com>",
+  "license": "MIT",
+  "bin": {
+    "rojao": "./src/cli.js"
+  },
+  "keywords": ["rojao", "som", "oloquinho", "sound"],
+  "bugs": {
+    "url": "https://github.com/SidiBecker/rojao/issues"
+  },
+  "homepage": "https://github.com/SidiBecker/rojao",
+  "dependencies": {
+    "meow": "^6.1.0"
+  }
+}
