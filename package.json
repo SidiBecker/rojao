@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/SidiBecker/rojao.git"
   },
-  "author": "Sidi Becker <sidibecker@hotmail.com>",
+  "author": "sidibecker",
   "license": "MIT",
   "bin": {
     "rojao": "./src/cli.js"
